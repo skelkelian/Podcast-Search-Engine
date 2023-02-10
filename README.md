@@ -24,9 +24,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 [![Python][python-shield]][python-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
@@ -38,6 +35,7 @@ Please make sure to update tests as appropriate.
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
