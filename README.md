@@ -5,37 +5,73 @@
 
 # Podcast-Search-Engine
 
-This project uses Machine Learning to determine the topic/person being discussed in a podcast and allows users to search by topic/person and view clips/segments regarding that topic.
-
-##### Table of Contents
-
+## Table of Contents
+[About](#about)  
+[Product Goal](#product-goal)  
+[Product Features](#product-features)  
+[Users](#users)  
+[Edge Cases](#edge-cases)  
+[Model Evaluation](#model-evaluation)  
+[System Diagram](#system-diagram)  
 [Installation](#installation)  
 [Contributing](#contributing)  
-[Built With](#built-with)  
 [License](#license)  
+
+## About
+This project uses Machine Learning to determine the topic/person being discussed in a podcast and allows users to search by topic/person and view clips/segments regarding that topic.
+
+### Product Goal
+Include support for every podcast upwards of 10,000 monthly listeners.
+
+### Product Features
+Allows users to search for segments of podcast based on topics.
+
+More will be added soon!
+
+### Users
+The Podcast Search Engine could be used by podcast listeners and podcasters. Podcast listeners could use this to browse clips about a specific topic/person and podcasters could use this for analytics and determine topics that are oversaturated/undersaturated.
+
+### Edge Cases
+1. There are several topics that could be predicted after the model listens to a clip.
+2. Different people speaking in a clip could be a hint of the topic being spoken about.
+3. Ads during the podcast should be ignored by the model.
+
+### Model Evaluation
+The accuracy of the model will be determined manually by using podcast episodes that I am familiar with and search for topics I know are discussed. As this project expands, I will develop a new way of testing the accuracy of the model that is more time effective than manual testing.
+
+### System Diagram
+<p align="center">
+    <img src=system_diagram.png> 
 
 ## Installation
 
-Insert how to install software
-
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+#### Create a virtual environment
+```
+virtualenv -p python3
+```
+#### Activate your virtual environment
+```
+source bin/activate
+```
+#### Install Jupyter
+```
+pip install jupyter notebook
+```
+#### Start Jupyter
+```
+jupyter notebook
+```
 
 [![Python][python-shield]][python-url]
 
 ## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+### File Bugs using Pull Requests
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. 
 
 ## License
-
 [MIT](https://choosealicense.com/licenses/mit/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="left">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
