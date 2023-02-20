@@ -2,6 +2,7 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![Python][python-shield]][python-url]
 
 # Podcast-Search-Engine
 
@@ -20,6 +21,15 @@
 ## About
 This project uses Machine Learning to determine the topic/person being discussed in a podcast and allows users to search by topic/person and view clips/segments regarding that topic.
 
+#### Sample Input
+<p align="center">
+    <img src=search_engine.png> 
+
+#### Sample Output
+[Joe Rogan Experience #1439 - Michael Osterholm (0:28)](https://youtu.be/E3URhJx0NSw?t=28)  
+[Viral: The Origin of Covid 19 | Matt Ridley | EP 310 (5:20)](https://youtu.be/FEh5JyZC218?t=320)  
+[Vincent Racaniello: Viruses and Vaccines | Lex Fridman Podcast #216 (1:22:25)](https://youtu.be/G433fa01oMU?t=4945)
+    
 ### Product Goal
 Include support for every podcast upwards of 10,000 monthly listeners.
 
@@ -61,8 +71,6 @@ pip install jupyter notebook
 ```
 jupyter notebook
 ```
-
-[![Python][python-shield]][python-url]
 
 ## Contributing
 ### File Bugs using Pull Requests
