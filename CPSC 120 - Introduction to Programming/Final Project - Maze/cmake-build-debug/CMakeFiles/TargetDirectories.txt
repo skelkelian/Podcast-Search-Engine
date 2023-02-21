@@ -1,3 +1,0 @@
-C:/Users/Owner/iCloudDrive/School/PCC/Summer 2021/CPSC 002/Maze/cmake-build-debug/CMakeFiles/Maze.dir
-C:/Users/Owner/iCloudDrive/School/PCC/Summer 2021/CPSC 002/Maze/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Owner/iCloudDrive/School/PCC/Summer 2021/CPSC 002/Maze/cmake-build-debug/CMakeFiles/rebuild_cache.dir
